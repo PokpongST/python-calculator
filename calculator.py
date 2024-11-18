@@ -1,9 +1,10 @@
 class Calculator:
     def add(self, a, b):
         return a + b
-
+    
+    #fix subtract
     def subtract(self, a, b):
-        return b - a
+        return a - b
 
     def multiply(self, a, b):
         result = 0
@@ -28,7 +29,7 @@ if __name__ == "__main__":
     calc = Calculator()
     print("This is a simple calculator class!")
     print("Example: addition: ", calc.add(1, 2))
-    print("Example: subtraction: ", calc.subtract(4, 2))
-    print("Example: multiplication: ", calc.multiply(2, 3))
-    print("Example: division: ", calc.divide(10, 2))
-    print("Example: modulo: ", calc.modulo(10, 3))
+    print("Example: subtraction: ", calc.subtract(5, 2))
+    print("Example: multiplication: ", calc.multiply(3, 7))
+    print("Example: division: ", calc.divide(5, 2))
+    print("Example: modulo: ", calc.modulo(5, 2))
